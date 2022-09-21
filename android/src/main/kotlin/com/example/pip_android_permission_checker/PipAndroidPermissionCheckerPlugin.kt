@@ -44,11 +44,11 @@ class PipAndroidPermissionCheckerPlugin: FlutterPlugin, MethodCallHandler, Activ
   }
 
   override fun onDetachedFromActivity() {
-    TODO("Not yet implemented")
+    //
   }
 
   override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
-    TODO("Not yet implemented")
+    //
   }
 
   override fun onAttachedToActivity(binding: ActivityPluginBinding) {
@@ -56,7 +56,7 @@ class PipAndroidPermissionCheckerPlugin: FlutterPlugin, MethodCallHandler, Activ
   }
 
   override fun onDetachedFromActivityForConfigChanges() {
-    TODO("Not yet implemented")
+    //
   }
 
   private fun checkPipPermission(packageName: String): Boolean {
